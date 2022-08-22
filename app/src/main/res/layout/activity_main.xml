@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/holder"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+
+ <androidx.core.widget.NestedScrollView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+
+   >
+
+
+ </androidx.core.widget.NestedScrollView>
+
+
+  <com.google.android.material.bottomappbar.BottomAppBar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/bottombar"
+    android:layout_gravity="bottom"
+    android:background="@color/white"
+      app:fabCradleRoundedCornerRadius="40dp"
+      app:fabCradleMargin="8dp"
+      app:hideOnScroll="true"
+    >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomnavigation"
+      app:menu="@menu/bottom_menu"
+      android:background="#C6E8FF"
+        android:layout_marginRight="10dp"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/bottomitems_background"
+        app:itemTextColor="@color/bottomitems_background"
+
+        >
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+  </com.google.android.material.bottomappbar.BottomAppBar>
+
+  <com.google.android.material.floatingactionbutton.FloatingActionButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/home"
+      android:id="@+id/home_btn"
+      app:maxImageSize="50dp"
+      android:backgroundTint="@color/white"
+    app:layout_anchor="@id/bottombar">
+
+  </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>

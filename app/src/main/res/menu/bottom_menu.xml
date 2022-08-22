@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/prayer"
+        android:title="Prayer"
+        android:icon="@drawable/excersize"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/quran"
+        android:title="Quran"
+        android:icon="@drawable/quran"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/empty"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false">
+    </item>
+    <item
+        android:id="@+id/qibla"
+        android:title="Qibla"
+        android:icon="@drawable/qibla"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/account"
+        android:title="Me"
+        android:icon="@drawable/account"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+</menu>

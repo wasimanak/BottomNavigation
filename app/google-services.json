@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "2593695716",
+    "firebase_url": "https://pkstatussaver-b058b-default-rtdb.firebaseio.com",
+    "project_id": "pkstatussaver-b058b",
+    "storage_bucket": "pkstatussaver-b058b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2593695716:android:036a7259c02fe7b1b2c9f1",
+        "android_client_info": {
+          "package_name": "com.manak.bottomnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2593695716-47cf9ponv16dnr0akjvae54ev161q6a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkJpQkYvirSgiN_c5Kw8RNiqArZOiJT8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2593695716-47cf9ponv16dnr0akjvae54ev161q6a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
